@@ -32,7 +32,10 @@ const newPreview = (preview) => {
     showPreview.setAttribute('data-preview', id)
 
 showPreview.innerHTML = /* html */ `
-
+<img
+class="preview__image"
+src="${image}"
+/>
 <div class="preview__info">
     <h3 class="preview__title">${title}</h3>
     <div class="preview__author">${authors[authorId]}</div>
