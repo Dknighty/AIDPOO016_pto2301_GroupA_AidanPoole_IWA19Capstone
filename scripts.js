@@ -34,14 +34,14 @@ const newPreview = (preview) => {
 showPreview.innerHTML = /* html */ `
 <img
 class="preview__image"
-src="${image}"
+src="${image}"                  
 />
 <div class="preview__info">
     <h3 class="preview__title">${title}</h3>
     <div class="preview__author">${authors[authorId]}</div>
 </div>
 `
-
+// this creates the html preview with images of the books, the authors 
 return showPreview
 } 
 
